@@ -14,71 +14,140 @@ h1
 	left:15%;
 	margin-right: 50px;
 }
+
+#rights
+{
+	color: black;
+	font-family: sans-serif; 
+	position: absolute;
+	top: 90%;
+	left: 25%;
+	font-size: 1.5vw;
+}
+
 #am
 {
 	color: black;
 	font-family: sans-serif; 
 	position: absolute;
-	top: 35%;
+	top: 30%;
 	left: 25%;
 	
 }
+#principal
+{
+	position: absolute;
+	top: 30%;
+	left: 45%;
+	height: 5%;
+	width: 30%;
+}
+
 #ra
 {
 	color: black;
 	font-family: sans-serif; 
 	position: absolute;
-	top: 45%;
+	top: 40%;
 	left: 25%;
 }
+#rate
+{
+	position: absolute;
+	top: 40%;
+	left: 45%;
+	height: 5%;
+	width: 25%;
+	cursor: pointer;
+}
+p
+{
+	font-family: sans-serif;
+	position: absolute;
+	top: 35%;
+	left: 71%;
+}
+
 #ye
 {
 	color: black;
 	font-family: sans-serif; 
 	position: absolute;
-	top: 55%;
+	top: 50%;
+	left: 25%;	
+}
+#years
+{
+	position: absolute;
+	top: 50%;
+	left: 45%;
+	height: 5%;
+	width: 5%;
+}
+mark
+{
+	background-color: yellow;
+  	color: black;
+}
+#num
+{
+	position: absolute;
+	top: 65%;
+	left: 59%;
+}
+#num00
+{
+	position: absolute;
+	top: 65%;
+	left: 25%;	
+}
+#num1
+{
+	position: absolute;
+	top: 70%;
+	left: 48%;	
+}
+#num01
+{
+	position: absolute;
+	top: 70%;
+	left: 25%;	
+}
+#num2{
+	position: absolute;
+	top: 75%;
+	left: 40.5%;
+}
+#num02
+{
+	position: absolute;
+	top: 75%;
+	left: 25%;	
+}
+#num3
+{
+	position: absolute;
+	top: 80%;
+	left: 37%;
+}
+#num03
+{
+	position: absolute;
+	top: 80%;
 	left: 25%;	
 }
 
-#principal
-{
-	position: absolute;
-	top: 35%;
-	left: 45%;
-	height: 5%;
-	width: 30%;
-
-}
-
-#rate
-{
-	position: absolute;
-	top: 45%;
-	left: 45%;
-	height: 5%;
-	width: 25%;
-}
-
+/*
 #interest
 {
 	position: absolute;
 	top: 70%;
 	left: 25%;
-}
-
-#years
-{
-	position: absolute;
-	top: 55%;
-	left: 45%;
-	height: 5%;
-	width: 5%;
-}
-
+}*/
 #button
 {
 	position: absolute;
-	top: 63%;
+	top: 59%;
 	left: 25%;
 	height: 5%;
 	width: 30%;

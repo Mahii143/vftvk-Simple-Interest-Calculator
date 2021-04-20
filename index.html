@@ -1,19 +1,22 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
     <head>
-    <title>Web App-Simple Interest Calculator</title>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+        <title>Web App-Simple Interest Calculator</title>
+        <script src="script.js"></script>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div class="box" >
             <h1 id="h">Simple Interest Calculator</h1>
-
             <label id="am"> Amount</label> 
             <input type="number"  id="principal">  <br/>
             
             <label id="ra">Interest Rate  </label>
-            <input type="range" min="1" max="20" value="0.5" step="0.5" id="rate"> <p>Value: <span id="demo"></span></p> <br/>
-            
+            <div class="slidecontainer">
+                <input type="range" min="1" max="20" value="1" step="0.50" id="rate" class="slider"> <p><span id="values" oninput="range()"></span></p> <br/>
+            </div>
             <label id="ye">No. of Years </label> 
             <select size="number"  id="years">
                 <option>1</option>
@@ -67,11 +70,32 @@
                 <option>49</option>
                 <option>50</option>
             </select> <br/>
-            
-            <label id="interest">Interest  </label>
             <span id="result"></span><br>
+            <button onclick="checkdata()" id="button">Compute Interest</button><br>
 
-            <button onclick="compute()" id="button">Compute Interest</button>
-    </div>
+            
+            
+            <div id="num00"></div><br>
+            <div id="num"><mark></mark></div></mark>
+            <div id="num01"> </div><br>
+            <mark><div id="num1"><mark></mark></div></mark>
+            <div id="num02"> </div><br>
+            <mark><div id="num2"><mark></mark></div></mark>
+            <div id="num03"> </div><br>
+            <mark><div id="num3"><mark></mark></div></mark>
+
+            <label id="rights">Ⓒ Everyone Can Get Rich</label>
+
+            <script>
+            var slider = document.getElementById("rate");
+            var output = document.getElementById("values");
+            output.innerHTML = slider.value;
+            slider.oninput = function() {
+            output.innerHTML = this.value+" %";
+            }
+
+            </script>
+
+        </div>
     </body>
 </html>
